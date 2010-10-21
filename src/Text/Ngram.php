@@ -66,7 +66,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * 配列として出力
      *
-     * @param  void
      * @return array N-gram の配列
      */
     public function toArray()
@@ -82,7 +81,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * イテレータのポインタの初期化
      *
-     * @param  void
      * @return void
      * @see    Iterator
      */
@@ -94,7 +92,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * イテレータの現在のポインタの取得
      *
-     * @param  void
      * @return int
      * @see    Iterator
      */
@@ -106,7 +103,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * イテレータの現在の要素の取得
      *
-     * @param  void
      * @return mixed
      * @see    Iterator
      */
@@ -118,7 +114,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * イテレータのポインタを次に進める
      *
-     * @param  void
      * @return void
      * @see    Iterator
      */
@@ -130,7 +125,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * イテレータに次の要素があるか
      *
-     * @param  void
      * @return bool 次の要素があれば true
      */
     public function valid()
@@ -157,7 +151,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * N-gram インデックスの要素数
      *
-     * @param  void
      * @return int
      * @see    Countable
      */
@@ -225,7 +218,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * インデックスの長さを取得
      *
-     * @param  void
      * @return int
      */
     public function getIndexSize()
@@ -236,7 +228,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     /**
      * 文書の文字数を取得
      *
-     * @param  void
      * @return int
      */
     public function getTextSize()
