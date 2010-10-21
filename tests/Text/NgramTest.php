@@ -13,7 +13,6 @@ namespace Text;
 require_once 'PHPUnit/Framework.php';
 require_once __DIR__ . '/../../src/Text/Ngram.php';
 
-namespace Text;
 /**
  * Test class for Ngram.
  */
