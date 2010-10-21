@@ -56,7 +56,6 @@ class NgramTest extends \PHPUnit_Framework_TestCase
 
     public function testRewind()
     {
-        $this->assertEquals(0, $this->bigram->key());
         $this->bigram->next();
         $this->assertEquals(1, $this->bigram->key());
         $this->bigram->rewind();

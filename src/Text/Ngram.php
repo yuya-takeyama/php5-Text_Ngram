@@ -63,7 +63,6 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
         $this->_indexSize = (int) $size;
         $this->_encode    = isset($encode) ? $encode : mb_internal_encoding();
         $this->_textSize  = mb_strlen($text, $this->_encode);
-        $this->rewind();
     }
 
     /**
