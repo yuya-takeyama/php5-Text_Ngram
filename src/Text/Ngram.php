@@ -5,7 +5,7 @@
  *
  * @category Text
  * @package  Text_Ngram
- * @author   Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
+ * @author   Yuya Takeyama <sign.of.the.wolf.pentagram at gmail.com>
  */
 
 /**

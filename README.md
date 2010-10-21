@@ -52,4 +52,4 @@ Iteration
 Author
 ======
 
-Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
+Yuya Takeyama <sign.of.the.wolf.pentagram at gmail.com>
