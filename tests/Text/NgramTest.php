@@ -2,7 +2,9 @@
 /**
  * Unit-tests for \Text\Ngram
  *
- * @author Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
+ * @category Text
+ * @package  Text_Ngram
+ * @author   Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
  */
 
 /**

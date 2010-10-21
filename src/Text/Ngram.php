@@ -1,8 +1,11 @@
 <?php
 /**
+ * Text_Ngram
  * N-gram 転置インデックス
  *
- * @author Yuya Takeyama
+ * @category Text
+ * @package  Text_Ngram
+ * @author   Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
  */
 
 /**
