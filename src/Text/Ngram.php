@@ -74,8 +74,7 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     public function toArray()
     {
         $result = array();
-        foreach ($this as $index)
-        {
+        foreach ($this as $index) {
             $result[] = $index;
         }
         return $result;
