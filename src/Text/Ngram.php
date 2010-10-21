@@ -4,7 +4,13 @@
  *
  * @author Yuya Takeyama
  */
-class Ngram implements SeekableIterator, Countable, ArrayAccess
+
+/**
+ * @namespace
+ */
+namespace Text;
+
+class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
 {
     /**
      * N-gram の元になる文書
@@ -144,7 +150,7 @@ class Ngram implements SeekableIterator, Countable, ArrayAccess
         if (isset($this[$offset])) {
             $this->_pointer = $offset;
         } else {
-            throw new OutOfBoundsException("The offset '{$offset}' doesn't exist on the object.");
+            throw new \OutOfBoundsException("The offset '{$offset}' doesn't exist on the object.");
         }
     }
 
@@ -189,7 +195,7 @@ class Ngram implements SeekableIterator, Countable, ArrayAccess
 
     /**
      * ArrayAccess interface のセッターメソッド
-     * ただし、Ngram はイミュータブルなので、使用不可
+     * ただし、\Text\Ngram はイミュータブルなので、使用不可
      *
      * @param  $offset
      * @param  $val
@@ -199,12 +205,12 @@ class Ngram implements SeekableIterator, Countable, ArrayAccess
      */
     public function offsetSet($offset, $val)
     {
-        throw new BadMethodCallException('Ngram object is immutable.');
+        throw new \BadMethodCallException('\Text\Ngram object is immutable.');
     }
 
     /**
      * ArrayAccess interface の要素削除メソッド
-     * ただし、Ngram はイミュータブルなので、使用不可
+     * ただし、\Text\Ngram はイミュータブルなので、使用不可
      *
      * @param  $offset
      * @return void
@@ -213,7 +219,7 @@ class Ngram implements SeekableIterator, Countable, ArrayAccess
      */
     public function offsetUnset($offset)
     {
-        throw new BadMethodCallException('Ngram object is immutable.');
+        throw new \BadMethodCallException('\Text\Ngram object is immutable.');
     }
 
     /**

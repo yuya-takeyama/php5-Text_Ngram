@@ -1,12 +1,23 @@
 <?php
+/**
+ * Unit-tests for \Text\Ngram
+ *
+ * @author Yuya Takeyama <sign.of.the.wolf.pentagram@gmail.com>
+ */
+
+/**
+ * @namespace
+ */
+namespace Text;
+
 require_once 'PHPUnit/Framework.php';
+require_once __DIR__ . '/../../src/Text/Ngram.php';
 
-require_once dirname(__FILE__) . '/../src/Ngram.php';
-
+namespace Text;
 /**
  * Test class for Ngram.
  */
-class NgramTest extends PHPUnit_Framework_TestCase
+class NgramTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var Ngram
