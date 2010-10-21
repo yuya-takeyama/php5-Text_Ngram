@@ -139,4 +139,10 @@ class NgramTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(8, $this->bigram->getTextSize());
         $this->assertEquals(8, $this->trigram->getTextSize());
     }
+
+    public function test__toString()
+    {
+        $this->assertEquals('こん,んに,にち,ちは,は世,世界,界！', $this->bigram->__toString());
+        $this->assertEquals('こんに,んにち,にちは,ちは世,は世界,世界！', $this->trigram->__toString());
+    }
 }

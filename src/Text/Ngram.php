@@ -254,4 +254,15 @@ class Ngram implements \SeekableIterator, \Countable, \ArrayAccess
     {
         return mb_substr($this->_text, $offset, $this->_indexSize, $this->_encode);
     }
+
+    /**
+     * オブジェクトの文字列表現
+     * カンマ区切りで出力する
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return join(',', $this->toArray());
+    }
 }
