@@ -1,7 +1,7 @@
 <?php
 require_once 'PHPUnit/Framework.php';
 
-require_once dirname(__FILE__) . '/../lib/Ngram.php';
+require_once dirname(__FILE__) . '/../src/Ngram.php';
 
 /**
  * Test class for Ngram.
